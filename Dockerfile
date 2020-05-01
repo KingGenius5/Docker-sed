@@ -5,6 +5,8 @@ FROM alpine:latest
 # Install pip
 RUN apk add py-pip
 
+# Note: will have to check if I have to run FROM cmd on py-pip to access pip
+
 # Install tldr
 RUN pip install tldr
 
